@@ -1,0 +1,10 @@
+@media (max-width: 560px) {
+    .cat-nav {
+        width: 10px;
+    }
+
+    .wanted-nav {
+        right: 0px;
+        position: fixed;
+    }
+}

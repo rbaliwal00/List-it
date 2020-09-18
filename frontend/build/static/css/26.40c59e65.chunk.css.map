@@ -1,0 +1,1 @@
+{"version":3,"sources":["InputList.css"],"names":[],"mappings":"AAIA,yDAGI,UAAW,CACX,UACJ","file":"26.40c59e65.chunk.css","sourcesContent":[".input-list input{\r\n\r\n}\r\n\r\n.input-list label,\r\n.input-list input,\r\n.input-list textarea {\r\n    margin: 8px;\r\n    color: black;\r\n}"]}
