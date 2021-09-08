@@ -55,11 +55,8 @@ const PostingItem = props => {
                     <div className="row justify-content-center" style={{ margin: '5px 10px 10px 0', position: 'relative'}}>
                         <div className="col-lg-5">
                             {props.rent && (<div className="row">
-                                <div className="col-1">
-                                    <h2>₹{props.rent}</h2>
-                                </div>
                                 <div className="col-10">
-                                    <h2>{props.title} <span className="titleCity"> ({props.city.toUpperCase()})</span></h2>
+                                    <h2>{props.title} <span className="titleCity"> ({props.city.toUpperCase()})</span> - ₹{props.rent}</h2>
                                 </div>
                             </div>)}
                             {!props.rent && (<h2>{props.title} <span className="titleCity"> ({props.city.toUpperCase()})</span></h2>)}
