@@ -1,0 +1,10 @@
+@media (max-width: 560px) {
+    .wanted {
+        width: 100px;
+    }
+
+    .wanted-nav {
+        right: 10px;
+        position: fixed;
+    }
+}

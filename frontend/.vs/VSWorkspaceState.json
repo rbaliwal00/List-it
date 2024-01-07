@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\postings",
+    "\\src\\postings\\components",
+    "\\src\\shared",
+    "\\src\\shared\\Components",
+    "\\src\\shared\\UIElements",
+    "\\src\\shared\\util",
+    "\\src\\user",
+    "\\src\\user\\pages"
+  ],
+  "SelectedNode": "\\src\\user\\pages\\Signup.js",
+  "PreviewInSolutionExplorer": false
+}

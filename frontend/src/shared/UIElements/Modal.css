@@ -1,0 +1,58 @@
+.model {
+  z-index: 100;
+  position: fixed;
+  top: 22vh;
+  left: 10%;
+  width: 80%;
+  background: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 8px;
+}
+
+.model__header {
+  width: 100%;
+  padding: 1rem 0.5rem;
+  background: gray;
+  color: black;
+}
+
+.model__header h2 {
+  margin: 0.5rem;
+}
+
+.model__content {
+  padding: 1rem 0.5rem;
+}
+
+.model__footer {
+  padding: 1rem 0.5rem;
+}
+
+@media (min-width: 768px) {
+  .model {
+    left: calc(50% - 20rem);
+    width: 40rem;
+  }
+}
+
+.model-enter {
+  transform: translateY(-10rem);
+  opacity: 0;
+}
+
+.model-enter-active {
+  transform: translateY(0);
+  opacity: 1;
+  transition: all 200ms;
+}
+
+.model-exit {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.model-exit-active {
+  transform: translateY(-10rem);
+  opacity: 0;
+  transition: all 200ms;
+}

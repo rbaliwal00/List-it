@@ -1,0 +1,10 @@
+.input-list input{
+
+}
+
+.input-list label,
+.input-list input,
+.input-list textarea {
+    margin: 8px;
+    color: black;
+}

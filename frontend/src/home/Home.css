@@ -1,0 +1,241 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-list {
+    list-style-type: none;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-list li {
+    background: #FFFF00;
+    margin: auto;
+    border: 2px solid black;
+    width: 15%;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+.nav-list a {
+    border: 2px solid transparent;
+    color: #292929;
+    text-decoration: none;
+    padding: 0.5rem;
+}
+
+.nav-list a:hover,
+.nav-list a:active,
+.nav-list a.active {
+    background: grey;
+    border-color: #292929;
+    color: #292929;
+}
+
+.main-whole {
+    display: flex;
+    width: 80%;
+    margin-top: 20px;
+    padding-left: 280px;
+    height: 90vh;
+    padding-right: 15px;
+}
+
+.main-logo {
+    border: 1px solid lightgray;
+    border-top-style: none;
+    border-bottom-style: none;
+    background-color: #e6e6e6;
+}
+
+.main-content {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.main-etc {
+    border: 1px solid lightgray;
+    border-top-style: none;
+    border-bottom-style: none;
+    background-color: #e6e6e6;
+}
+
+.main-city {
+    border: 1px solid lightgray;
+    border-left-style: none;
+    border-right-style: none;
+    background-color: #e6e6e6;
+    height: 60px;
+}
+
+.main-box {
+    color: blue;
+}
+
+.main-heading {
+    border: 1px solid lightgray;
+    border-left-style: none;
+    border-right-style: none;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    height: 3vh;
+    background-color: #e6e6e6;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    color: blue;
+    height: 30px;
+}
+
+.main-heading:hover {
+    color: white;
+    background-color: black;
+}
+
+.main-lists-container {
+    margin-left: -15px;
+    list-style-type: none;
+}
+
+.main-lists {
+    border: 1px solid lightgray;
+    border-left-style: none;
+    border-right-style: none;
+    border-top-style: none;
+    color: blue;
+    font-size: 14px;
+}
+
+.main-lists:hover {
+    background-color: lightgray;
+    color: purple;
+}
+
+.main-main{
+    margin-top: 10px;
+}
+
+.tags:hover{
+    color: purple;
+    text-decoration: underline;
+}
+
+@media (min-width: 1651px) {
+    .main-box {
+        height: 28vh;
+        color: blue;
+    }
+
+    .main-gigs {
+        height: 15vh;
+    }
+}
+
+@media (min-width: 1301px) and (max-width: 1650px){
+    .main-whole {
+        width: 90%;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin: auto;
+        margin-top: -120px;
+        height: 90vh;
+    }
+
+    .main-box {
+        height: 45vh;
+        color: blue;
+    }
+
+    .main-gigs {
+        height: 25vh;
+    }
+
+    .main-main {
+        margin-top: 150px;
+    }
+}
+
+@media (min-width: 1001px) and (max-width: 1300px) {
+    .main-whole {
+        width: 100%;
+        margin-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        height: 90vh;
+        margin-top: -120px;
+    }
+
+    .main-content {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .main-box {
+        color: blue;
+        height: 35vh;
+    }
+
+    .main-gigs {
+        height: 15vh;
+    }
+
+    .main-main {
+        margin-top: 150px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .main-whole {
+        width: 100%;
+        margin-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        height: 90vh;
+        margin-top: -120px;
+    }
+
+    .main-content {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .main-box {
+        color: blue;
+    }
+
+    .main-hide{
+        display: none;
+    }
+
+    .main-main {
+        margin-top: 150px;
+    }
+
+    .main-box {
+        padding: 0px;
+    }
+
+    .main-heading {
+        height: 50px;
+        border-radius: 5px;
+        margin-bottom: 0px;
+        padding-top: 10px;
+        margin-bottom: 5px;
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .main-whole {
+        margin-top: 0px;
+    }
+
+    .main-box {
+        padding: 0px;
+    }
+
+    .main-main {
+        margin-top: 150px;
+    }
+}
